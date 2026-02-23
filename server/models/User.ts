@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import { IUser } from "../types/index.js";
-import { User } from "@clerk/express";
 
 const userSchema = new mongoose.Schema<IUser>(
     {
